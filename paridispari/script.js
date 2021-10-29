@@ -20,13 +20,12 @@ function disparipari(numsomma) {
 }
 
 //1 l'utente sceglie pari o dispari => un prompt con un controllo che se non mette quei due lo richiediamo
-//inserisce un numero da uno a cinque => prompt parseint e il controllo con if
-//l'utente inserisce un numero tra 1 e 5 = prompt con un controlle while minore o maaggiore di 1 e 5 richiedi il numero
+//inserisce pari o dispari => prompt con controllo while se non ha scritto ne pari ne dispari 
+//l'utente inserisce un numero tra 1 e 5 = parseint prompt con un controlle while minore o maaggiore di 1 e 5 richiedi il numero
 //2 generiamo 1 numero random  da 1 a 5 con l'uso di una funzione => mat.random () con i segnaposto 
-//sommiamo i due numeri che ci sono usciti dalla funzione con le rispettive variabili 
-
+//sommiamo i due numeri che ci sono usciti con una funzione  
 //se il risultato è pari  o dispari  con una funzioni 
-//se è uguale a quello che ha scelto il giocatore vince 
+//se è uguale a quello che ha scelto il giocatore vince if
 
 let sceltaUser = prompt("scegli pari o dispari");
 while (( sceltaUser != "pari") && (sceltaUser != "dispari")) {
