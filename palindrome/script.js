@@ -8,7 +8,6 @@
 //se è vera mi dice che è polindroma altrimenti normale
 
 function palindrome(str) {
-
     var len = str.length;
     var mid = Math.floor(len/2);
 
@@ -19,6 +18,8 @@ function palindrome(str) {
     }
     return true;
 }
+
+
 
 let parolaUser = prompt("inserisci una parola e ti dirò se è palindroma");
 
